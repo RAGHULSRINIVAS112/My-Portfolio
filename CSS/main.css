@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 body {
-  background: #f4f1d5;
+  background: #b85939;
   font-family: 'Montserrat';
   margin: 0;
   height: 100vh;
+  position: relative;
 }
 
 ul {
@@ -20,10 +21,6 @@ img {
   width: 100%;
 }
 
-.nav-container {
-  background: #B85839;
-}
-
 .nav-container a {
   color: white;
 }
@@ -36,6 +33,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2em;
+  background: rgba(184, 89, 57, 0.8);
 }
 
 header .logo {
@@ -58,13 +56,26 @@ header nav a {
   padding: 0 1em;
 }
 
-header .right {
-  display: float;
-  float: right;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 2em;
+.left {
+  position: relative;
+}
+
+.imglogo {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+}
+
+section {
+  background-color: rgba(184, 89, 57, 0.8);
+  position: relative;
+}
+
+.right {
   color: white;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  right: 120px;
 }
 /*# sourceMappingURL=main.css.map */
